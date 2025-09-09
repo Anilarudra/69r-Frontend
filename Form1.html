@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <h2 align="center">HTML Form within Table</h2>
+    <table border="1px solid black" cellspacing="1px" cellpadding="5px" width="400px" height="100px"align="center" >
+        <form action="Form1.html" method="get">
+        <tr width="100px">
+            <th colspan="5">Fill the form</th>
+            <!-- <th></th>
+            <th></th>
+            <th></th>
+            <th></th> -->
+        </tr>
+        <tr>
+            <td>Name: </td>
+            <td colspan="4"><input type="text" name="name"></td>
+            <!-- <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+        <tr>
+            <td>Password: </td>
+            <td colspan="4"><input type="password" name="password"></td>
+            <!-- <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+        <tr>
+            <td>Feedback: </td>
+            <td colspan="4"><input type="text" name="feedback"></td>
+            <!-- <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+        <tr>
+            <td>Gender: </td>
+            <td colspan="4"><input type="radio" name="gender" placeholder="">Male  
+            <input type="radio" name="gender" placeholder="">Female</td>
+            <!-- <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+        <tr>
+            <td>Subjects: </td>
+            <td colspan="4"><input type="checkbox" name="Subject">Web
+            <input type="checkbox" name="Subject">Maths
+            <input type="checkbox" name="Subject">Graphics
+            <input type="checkbox" name="Subject">English</td>
+            <!-- <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="4"><button type="reset">Reset All</button>
+            <button type="submit">Submit above details</button></td>
+            <!-- <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+        </form>
+    </table>
+</body>
+</html>

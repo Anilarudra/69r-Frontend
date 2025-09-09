@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 1px solid black;
+            width: 400px;
+            height: 500px;
+            margin: auto;
+            padding: 20px;
+            background-color: orange;
+        }
+        input{
+            width: 200px;
+            height: 25px;
+            border-radius: 5px;
+        }
+        </style>
+</head>
+<body align="center">
+    <form action="Form2.html" method="get" name="Registraion Form">
+        <h1>Student Registration Form</h1>
+         <br>
+         <h3>Fill in this form to Register</h3>
+        <label for="name">First Name:</label>
+        <input type="text" name="firstname" placeholder="Enter your first name">
+        <br>
+        <br>
+        <label for="name">Last Name:</label>
+        <input type="text" name="Lastname" placeholder="Enter your last name">
+        <br>
+        <br>
+        <label for="name">Email:</label>    
+        <input type="email" name="Email" placeholder="Enter your email">
+        <br>    
+        <br>
+        <label for="name">Date of Birth:</label>
+        <input type="date" name="DOB" placeholder="">
+        <br>
+        <br>
+        <label for="name">Set Username:</label>
+        <input type="tel" name="Phone" placeholder="Enter your username">
+        <br>
+        <br>
+        <label for="name">Set password:</label>
+        <input type="password" name="password" placeholder="Enter your password">
+        <br>    
+        <br>
+        <label>Course :</label>
+            <select name="course">
+                <option>--Course --</option>
+                <option>B.Tech</option>
+                <option>M.Tech</option>
+                <option>B.Sc</option>
+                <option>M.Sc</option>
+                <option>MBA</option>
+            </select>
+        <br>    
+        <br>
+        <button type="submit">Register</button>
+     </form>
+</body>
+</html>
